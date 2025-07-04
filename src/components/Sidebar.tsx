@@ -54,8 +54,8 @@ export function Sidebar() {
         </div>
 
         {/* Descrição maior e cinza claro */}
-        <p className="text-base text-gray-300 max-w-md leading-relaxed drop-shadow-sm">
-          Sua análise de currículo com IA local. Receba insights, score e recomendações profissionais com rapidez e privacidade.
+        <p className="text-base text-gray-400 max-w-md leading-relaxed drop-shadow-sm">
+          Analise seu currículo com AI local. Obtenha insights precisos, pontuação personalizada e recomendações profissionais, com velocidade e total privacidade.
         </p>
 
         {/* Badge alinhado à esquerda, não centralizado */}
