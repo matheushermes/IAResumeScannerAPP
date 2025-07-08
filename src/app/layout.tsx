@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Saira } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
+import { Toaster } from "react-hot-toast";
 
 const saira = Saira({
   variable: "--font-saira",
@@ -33,6 +34,32 @@ export default function RootLayout({
         >
             {children}
         </ThemeProvider>
+        <Toaster
+          position="top-right"
+          toastOptions={{
+            style: {
+              background: "#1e1b2e", // fundo dark
+              color: "#ffffff",
+              border: "1px solid #a67cf8",
+              padding: "12px 16px",
+              borderRadius: "12px",
+              fontWeight: 500,
+            },
+            success: {
+              iconTheme: {
+                primary: "#a67cf8",
+                secondary: "#ffffff",
+              },
+            },
+            error: {
+              iconTheme: {
+                primary: "#ff4d4f",
+                secondary: "#ffffff",
+              },
+            },
+          }}
+        />
+
       </body>
     </html>
   );
