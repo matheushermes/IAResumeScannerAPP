@@ -65,7 +65,7 @@ export function UploadCV({ onUpload }: UploadCVProps) {
   return (
     <section
       id="upload"
-      className="relative w-full min-h-dvh flex flex-col justify-center items-center px-6 overflow-hidden"
+      className="relative w-full min-h-dvh flex flex-col justify-center items-center px-6 overflow-hidden bg-gradient-to-b from-[#0e0b18] to-black"
     >
       {/* Fundo radial */}
       <div className="absolute inset-0 bg-gradient-radial from-[#1b152a] via-[#0f0b19] to-black opacity-70 z-0" />
