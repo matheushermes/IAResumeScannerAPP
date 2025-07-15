@@ -50,3 +50,8 @@ cd IAResumeScannerAPP
 pnpm install    # ou yarn / npm install
 pnpm dev        # ou yarn dev / npm run dev
 ```
+
+# 📄 Licença
+Este projeto está licenciado sob a <b>MIT License</b>.
+
+<p align="center"> <strong>🚀 Desenvolvido por Matheus Hermes com foco em IA prática, local e ética.</strong> </p>
