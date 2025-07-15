@@ -4,8 +4,6 @@ import { Badge } from "@/components/ui/badge"
 export function Sidebar() {
   return (
     <aside className="w-full
-            sm:w-[40%]
-            lg:w-[30%]
             min-h-dvh
             border-solid
             border-r

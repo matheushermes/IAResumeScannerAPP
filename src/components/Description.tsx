@@ -35,7 +35,7 @@ export function JobDescription({
   }
 
   return (
-    <section className="w-full h-full flex flex-col justify-center items-center px-6 py-10 text-white bg-gradient-to-b from-[#0e0b18] to-black">
+    <section className="w-full min-h-dvh flex flex-col justify-center items-center px-6 py-10 text-white bg-gradient-to-b from-[#0e0b18] to-black">
       <motion.h2
         className="text-2xl sm:text-3xl font-bold tracking-widest drop-shadow-md leading-tight text-[#c7b4fc] mb-8 flex flex-wrap justify-center"
         variants={container}

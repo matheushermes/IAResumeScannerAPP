@@ -98,7 +98,7 @@ export function FeedbackResult({
         transition={{ duration: 0.6 }}
         className="text-lg font-semibold text-white"
       >
-        <h2 className="text-2xl font-bold tracking-widest drop-shadow-md leading-tight mb-8 flex flex-wrap"> ANALISE FINAL <BrainCircuit className="w-8 h-8 ml-2 text-[#a67cf8] drop-shadow-[0_0_4px_#a67cf8]"/> </h2>
+        <span className="text-2xl font-bold tracking-widest drop-shadow-md leading-tight mb-8 flex flex-wrap"> ANALISE FINAL <BrainCircuit className="w-8 h-8 ml-2 text-[#a67cf8] drop-shadow-[0_0_4px_#a67cf8]"/> </span>
       </motion.h3>
 
       {feedback && (
